@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<style type="text/css">
+	html, body {
+		padding:0;
+		margin:0;
+		width:100%;
+		height:100%;
+		background-attachment:fixed;
+	}
+		h1 h2 {
+			position:absolute;;
+		}
+		.someclass {
+  text:"Visual Mixer";  /* this is how I'd imagine it, IF it were possible */
+  color:#25A878;
+}
+	</style>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body data-0="background-image:linear-gradient(hsl(0, 63%, 82%), hsl(40, 50%, 50%));" data-5000="background-image:linear-gradient(hsl(360, 100%, 50%), hsl(400, 100%, 50%));">
+	
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	
+	<h1>  Visual Mixer </h1>
+	<h2> Press on Any Gif</h2>
+	
+	
+
+	<img src="drumss.png" width="196" height="230" class="drums"><img src="basss.png" width="196" height="217" class="bass">
+	<img src="leads.png" width="171" height="214" class="leads"><img src="pads.png" width="166" height="209" class="pads">
+	<img src="drums2.png" width="185" height="233" class="drums2"><img src="leads2.png" width="191" height="204" class="leads2">
+	<img src="drums3.png" width="178" height="211" class="drums3"><img src="pads2.png" width="165" height="203" class="pads2">
+	<img src="pads3.png" width="178" height="211" class="pads3"><img src="pads4.png" width="178" height="211" class="pads4">
+	<img src="pads5.png" width="178" height="211" class="pads5">
+	<img src="drums4.png" width="178" height="211" class="drums4">
+	<img src="drums5.png" width="178" height="211" class="drums5">
+	<img src="leads3.png" width="178" height="211" class="leads3">
+	<img src="leads4.png" width="178" height="211" class="leads4">
+<audio loop class="audio1">
+	<source src="drums1.wav">
+</audio>
+<audio loop class="audio2">
+	<source src="pad2.wav">
+	</audio>
+<audio loop class="audio4">
+      <source src="bass1.wav">
+</audio>
+<audio loop class="audio3">
+	<source src="lead1.wav">
+<audio loop class="audio5">
+	<source src="pad1.wav">
+<audio loop class="audio6">
+	<source src="drums2.wav"></audio>
+<audio loop class="audio7">
+	<source src="lead2.wav"></audio>
+<audio loop class="audio8">
+	<source src="drums3.wav"></audio>
+<audio loop class="audio9">
+	<source src="pad5.wav"></audio>
+<audio loop class="audio10">
+	<source src="pad4.wav"></audio>
+<audio loop class="audio11">
+	<source src="pad3.wav"></audio>
+	<audio loop class="audio12">
+	<source src="drums4.wav"></audio>
+	<audio loop class="audio12">
+	<source src="drums4.wav"></audio>
+	<audio loop class="audio13">
+	<source src="drums5.wav"></audio>
+		<audio loop class="audio14">
+	<source src="lead3.wav"></audio>
+	<audio loop class="audio15">
+	<source src="lead5.wav"></audio>
+	
+	
+  </audio>
+	</audio>
+<script src="skrollr.min.js"></script> <a href="https://soundcloud.com/lemondoza"><img border="0" alt="lemon" src="lemondozame4.gif" width="240" height="212" class="lemondozaa"></a>
+<a href="https://soundcloud.com/lemondoza"></a>
+<script type="text/javascript">
+		
+		
+	skrollr.init();
+	
+	$('.drums').click(function () {
+    if	($('.audio1')[0].paused == false) {
+        $('.audio1')[0].pause();
+		$('.drums').attr('src','drumss.png');
+    } else {
+		$('.audio1')[0].play();
+		$('.drums').attr('src','drumss.gif');
+    }
+});
+			$('.pads').click(function () {
+    if	($('.audio2')[0].paused == false) {
+        $('.audio2')[0].pause();
+		$('.pads').attr('src','pads.png');
+    } else {
+		$('.audio2')[0].play();
+		$('.pads').attr('src','pads.gif');
+    }
+});
+
+		$('.bass').click(function () {
+    if ($('.audio4')[0].paused == false) {
+        $('.audio4')[0].pause();
+		$('.bass').attr('src','basss.png'); 
+    } else {
+		$('.audio4')[0].play();
+		$('.bass').attr('src','basss.gif');
+    }
+})
+		$('.leads').click(function () {
+    if ($('.audio3')[0].paused == false) {
+        $('.audio3')[0].pause();
+		$('.leads').attr('src','leads.png');
+    } else {
+		$('.audio3')[0].play();
+		$('.leads').attr('src','leads.gif');
+    }
+})
+				$('.pads2').click(function () {
+    if ($('.audio5')[0].paused == false) {
+        $('.audio5')[0].pause();
+		$('.pads2').attr('src','pads2.png');
+    } else {
+		$('.audio5')[0].play();
+		$('.pads2').attr('src','pads2.gif');
+    }
+})
+					$('.drums2').click(function () {
+    if ($('.audio6')[0].paused == false) {
+        $('.audio6')[0].pause();
+		$('.drums2').attr('src','drums2.png');
+    } else {
+		$('.audio6')[0].play();
+		$('.drums2').attr('src','drums2.gif');
+    }
+})
+						$('.leads2').click(function () {
+    if ($('.audio7')[0].paused == false) {
+        $('.audio7')[0].pause();
+		$('.leads2').attr('src','leads2.png');
+    } else {
+		$('.audio7')[0].play();
+		$('.leads2').attr('src','leads2.gif');
+    }
+})
+							$('.drums3').click(function () {
+    if ($('.audio8')[0].paused == false) {
+        $('.audio8')[0].pause();
+		$('.drums3').attr('src','drums3.png');
+    } else {
+		$('.audio8')[0].play();
+		$('.drums3').attr('src','drums3.gif');
+    }
+})
+								$('.pads3').click(function () {
+    if ($('.audio9')[0].paused == false) {
+        $('.audio9')[0].pause();
+		$('.pads3').attr('src','pads3.png');
+    } else {
+		$('.audio9')[0].play();
+		$('.pads3').attr('src','pads3.gif');
+    }
+})
+									$('.pads4').click(function () {
+    if ($('.audio10')[0].paused == false) {
+        $('.audio10')[0].pause();
+		$('.pads4').attr('src','pads4.png');
+    } else {
+		$('.audio10')[0].play();
+		$('.pads4').attr('src','pads4.gif');
+    }
+})
+										$('.pads5').click(function () {
+    if ($('.audio11')[0].paused == false) {
+        $('.audio11')[0].pause();
+		$('.pads5').attr('src','pads5.png');
+    } else {
+		$('.audio11')[0].play();
+		$('.pads5').attr('src','pads5.gif');
+    }
+})
+											$('.drums4').click(function () {
+    if ($('.audio12')[0].paused == false) {
+        $('.audio12')[0].pause();
+		$('.drums4').attr('src','drums4.png');
+    } else {
+		$('.audio12')[0].play();
+		$('.drums4').attr('src','drums4.gif');
+    }
+})
+												$('.drums5').click(function () {
+    if ($('.audio13')[0].paused == false) {
+        $('.audio13')[0].pause();
+		$('.drums5').attr('src','drums5.png');
+    } else {
+		$('.audio13')[0].play();
+		$('.drums5').attr('src','drums5.gif');
+    }
+})
+													$('.leads3').click(function () {
+    if ($('.audio14')[0].paused == false) {
+        $('.audio14')[0].pause();
+		$('.leads3').attr('src','leads3.png');
+    } else {
+		$('.audio14')[0].play();
+		$('.leads3').attr('src','leads3.gif');
+    }
+})
+													$('.leads4').click(function () {
+    if ($('.audio15')[0].paused == false) {
+        $('.audio15')[0].pause();
+		$('.leads4').attr('src','leads4.png');
+    } else {
+		$('.audio15')[0].play();
+		$('.leads4').attr('src','leads4.gif');
+    }
+})
+	</script>
+</body>
+
+</html>
