@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+img {
+	position:fixed;
+}
+.drums {
+	top: 10px;
+	left: 0px;
+}
+
+.pads {
+	top: 10px;
+	left: 400px;
+}
+.bass {
+	top: 10px;
+	left: 800px;
+}
+.leads {
+	top: 10px;
+	left: 1150px;
+	
+}
+.lemondozaa {
+	top: 300px;
+	left: 800px;
+}
+.pads2 {
+	top: 300px;
+	left: 400px;
+}
+.drums2 {
+	top: 300px;
+	left: 0px;
+}
+.leads2 {
+	top: 300px;
+    left: 1150px;
+}
+.drums3 {
+	top: 650px;
+    left: 0px;
+}
+.pads3 {
+	top: 650px;
+	left: 400px;
+}
+.pads4 {
+	top:200px;
+	left: 600px;
+}
+.pads5{
+	top:500px;
+	left: 600px;
+}
+.drums4{
+	top:500px;
+	left: 200px;
+}
+.drums5{
+	top:200px;
+	left: 200px;
+}
+.leads3{
+	top: 650px;
+	left: 1150px;
+}
+.leads4{
+	top: 650px;
+	left: 800px;
+}
+
+h1 {
+	position:fixed;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:blueviolet;
+	font-size: 70px;
+	left: 30px;
+	top: 450px;
+	
+}
+h2 {
+	position:fixed;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: blueviolet;
+	font-size: 70px;
+	left: 1100px;
+	top: 400px;
+}
+
+}
